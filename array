@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Methods</title>
+</head>
+<body>
+
+<script>
+
+    // Create an array
+    let fruits = ["Apple", "Banana", "Mango"];
+
+    // push() - adds an element at the end
+    fruits.push("Orange");
+    console.log("After push:", fruits);
+
+    // pop() - removes the last element
+    fruits.pop();
+    console.log("After pop:", fruits);
+
+    // unshift() - adds an element at the beginning
+    fruits.unshift("Grapes");
+    console.log("After unshift:", fruits);
+
+    // shift() - removes the first element
+    fruits.shift();
+    console.log("After shift:", fruits);
+
+    // Print all elements using for loop
+    console.log("Array elements:");
+
+    for (let i = 0; i < fruits.length; i++) {
+        console.log(fruits[i]);
+    }
+
+</script>
+
+</body>
+</html>
